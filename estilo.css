@@ -82,6 +82,10 @@ ul.menu--bar li a{
     padding: 40px 40px 40px 40px;
 }
 
+.grid--fullview img{
+    max-width: 100%;
+}
+
 .btn--details{
     padding: 18px 24px 18px 24px;
     font-size: 1.5rem;
