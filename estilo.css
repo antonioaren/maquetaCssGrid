@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+       
+}
+
+body {
+    background-color:white;
+    font-family: 'Lato',Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #2c3e50;    
+}
+
+h2{
+    font-size: 2.5rem;    
+}
+
+h3{
+    font-size:15px;    
+}
+
+p {
+    color: #a1b1bc;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: minmax(1rem,1fr) minmax(0, 80rem) minmax(1rem,1fr); 
+}
+
+.grid--fullview {
+    grid-column: 1/4;
+}
+
+.grid--contentview {
+    grid-column: 2/3;
+}
+
+.grid--col2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* TO-DO: No pixel Perfect. Mirar medidas */
+    grid-gap: 40px;
+}
+
+.social--bar{
+    background-color: #00c4fe;
+}
+
+/* Padding de la lista completa */
+ul.menu--bar{
+   list-style-type: none;
+   padding: 10px;   
+}
+
+/* Padding de cada item */
+ul.menu--bar li{
+    padding: 5px;
+    /* border: 2px solid black; */
+    text-transform: uppercase;
+    float: left;
+
+}
+
+ul.menu--bar li a{
+    display: inline-block;
+    /* border: 1px solid black; */
+    padding: 15px;
+}
+
+.hello--spacing{    
+    /*TO-DO:Padding no pixel perfect */
+    padding: 40px 40px 40px 40px;
+}
+
+.btn--details{
+    padding: 18px 24px 18px 24px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #a1b1bc;
+    border: 1px solid a1b1bc;
+    border-radius: 3px;
+    box-shadow:0 10px #81919b;
+    text-decoration: none;
+}
+
+
+
