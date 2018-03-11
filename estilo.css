@@ -21,7 +21,7 @@ h4 {
 }
 
 h2{
-    font-size: 2.5rem;    
+    font-size: 2.5rem;        
 }
 
 h3{
@@ -49,7 +49,12 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* TO-DO: No pixel Perfect. Mirar medidas */
-    grid-gap: 40px;
+    grid-column-gap: 40px;
+}
+
+.grid--subgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
 }
 
 .social--bar{
@@ -64,38 +69,37 @@ ul.menu--bar{
 
 /* Padding de cada item */
 ul.menu--bar li{
-    padding: 5px;
-    /* border: 2px solid black; */
+    padding: 5px;    
     text-transform: uppercase;
     float: left;
-
 }
 
 ul.menu--bar li a{
-    display: inline-block;
-    /* border: 1px solid black; */
+    display: inline-block;    
     padding: 15px;
-}
-
-.hello--spacing{    
-    /*TO-DO:Padding no pixel perfect */
-    padding: 40px 40px 40px 40px;
 }
 
 .grid--fullview img{
     max-width: 100%;
 }
 
+.grid--button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .btn--details{
     padding: 18px 24px 18px 24px;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
     color: white;
     background-color: #a1b1bc;
     border: 1px solid a1b1bc;
     border-radius: 3px;
-    box-shadow:0 10px #81919b;
+    box-shadow:0 5px #81919b;
     text-decoration: none;
 }
 
-
-
+.grid--contentview .center{
+    text-align: center;
+}
