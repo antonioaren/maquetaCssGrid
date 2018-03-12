@@ -65,7 +65,7 @@ p {
 /* Padding de la lista completa */
 ul.menu--bar{
    list-style-type: none;
-   padding: 10px;   
+   padding: 5px;   
 }
 
 /* Padding de cada item */
@@ -119,6 +119,7 @@ ul.menu--bar li a{
     padding: 40px 60px 40px 60px;
 }
 
+
 .btn--contactos {    
     /* TO-DO: Ajuste por padding, no pixel */
     padding: 20px;  
@@ -169,3 +170,12 @@ input {
     
 }
 
+.menu--group__2{
+    background-color: #616b77;
+    text-align: center;    
+    padding: 40px 60px 40px 60px;
+}
+
+.pie{
+    background-color: #55687a;
+}
