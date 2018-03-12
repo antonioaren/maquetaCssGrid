@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>The fox</title>
 </head>
 
@@ -18,7 +18,6 @@
             <div class="grid--fullview">
                 <nav class="social--bar">Navigator</nav>
             </div>
-
             <div class="grid--contentview">
                 <nav>
                     <ul class="menu--bar">
@@ -63,7 +62,7 @@
 
     <main class="grid">
         <section class="grid--contentview">
-            <div class="grid--col2">
+            <div class="subgrid--col2">
                 <!-- Columna 1 -->
                 <div>
                     <h2>Hello!</h2>
@@ -104,7 +103,7 @@
             </div>
         </section>
 
-        <section class="grid--col2 grid--contentview">
+        <section class="subgrid--col2 grid--contentview">
             <div>
                 <h2>Why Works With Us</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quis quae sit, quisquam consectetur illum,
@@ -141,10 +140,11 @@
 
         <section class="grid--contentview">
             <h2 class="center"> What Other Say About TheFox</h2>
-            <div class="center btn--contactos">                
-                <a href="#">Previous</a><a href="#">Next</a>
+            <div class="center btn--contactos">
+                <a href="#">Previous</a>
+                <a href="#">Next</a>
             </div>
-            <div class="grid--col2__contact">                
+            <div class="subgrid--col2__contact">
                 <div class="card subgrid--contactos">
                     <div>
                         <img src="" alt="img profile">
@@ -209,10 +209,42 @@
         </section>
 
         <section class="grid--fullview">
-            <div id="map"></div>                                    
+            <div id="map">Google Maps</div>
         </section>
+
+        <section class="grid--contentview">
+            <h2>TheFox Design</h2>
+            <div class="subgrid--col2">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sunt, voluptatem, dolor molestiae
+                        libero sit aspernatur natus exercitationem assumenda non in ex facere, veritatis quam! Autem inventore
+                        porro veritatis quo!
+                    </p>
+                    <div class="subgrid--col2">
+                        <div>
+                            <p>267 Banbury road, Summertown</p>
+                            <p>Oxford, United Kingdom OX2 7TH</p>
+                            <p>United Kingdom</p>
+                            <p>Phone: 01865 339665</p>
+                            <p>Fax: 01865 339301</p>
+                            <p>Email: hello@thefoxdesign.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text">
+                </div>
+                <div></div>
+                <a class="btn--details" href="#">Submit Now</a>
+            </div>
+        </section>
+
+
     </main>
-<script src="js/main.js"></script>
+
 </body>
 
 </html>

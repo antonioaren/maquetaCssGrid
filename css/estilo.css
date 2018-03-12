@@ -35,7 +35,7 @@ p {
 .grid {
     display: grid;
     grid-template-columns: minmax(1rem,1fr) repeat(2,minmax(0, 26.6rem) minmax(1rem,1fr));
-    grid-gap: 100px;
+    grid-gap: 25px;
 }
 
 .grid--fullview {
@@ -46,7 +46,7 @@ p {
     grid-column: 2/5;    
 }
 
-.grid--col2{
+.subgrid--col2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* TO-DO: No pixel Perfect. Mirar medidas */
@@ -134,7 +134,7 @@ ul.menu--bar li a{
     color: #2c3e50;
     text-decoration: none;    
 }
-.grid--col2__contact{
+.subgrid--col2__contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap : 30px 30px;
@@ -155,5 +155,17 @@ ul.menu--bar li a{
     margin-top: 30px;
 }
 
+#map {
+    background-color: cyan;
+    text-align: center;
+    padding: 50px 50px; 
+}
 
+input {
+    width: 100%;    
+}
+
+.subgrid--col2 a {
+    
+}
 
