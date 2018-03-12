@@ -158,10 +158,8 @@ ul.menu--bar li a{
     margin-top: 30px;
 }
 
-#map {
-    background-color: cyan;
-    text-align: center;
-    padding: 50px 50px; 
+#map {   
+    padding: 200px; 
 }
 
 input {

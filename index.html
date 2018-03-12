@@ -264,14 +264,27 @@
             <div class="pie">
                 <img src="" alt="ImagenCiclista">
             </div>
-
         </footer>
-
-
-
-
     </main>
 
+<!-- TO-DO: Añadir esto en un javascrip aparte -->
+    <script>
+        function initMap() {
+          var uluru = {lat: 28.106368, lng: -15.445752};
+          /* 28.106368, -15.445752 */
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 8,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClBUIHKQSY4et_e7V7xJ-8s49XRsWHwvI&callback=initMap">
+      </script>
 </body>
 
 </html>
